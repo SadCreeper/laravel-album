@@ -4,7 +4,14 @@
     "gulp": "^3.8.8"
   },
   "dependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "browserify-fs": "^1.0.0",
+    "fwd-stream": "^1.0.4",
+    "imagesloaded": "^4.1.1",
+    "jquery": "^3.1.1",
     "laravel-elixir": "^4.0.0",
-    "bootstrap-sass": "^3.0.0"
+    "level-filesystem": "^1.2.0",
+    "masonry": "^0.0.2",
+    "obedient": "^0.0.9"
   }
 }

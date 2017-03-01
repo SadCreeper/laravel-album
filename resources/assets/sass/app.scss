@@ -1,2 +1,57 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+.album{
+    a:hover{
+        text-decoration:none;
+        display: block;
+        box-shadow: 1px 1px 5px 1px #848484;
+    }
+    .album-name{
+         color:black;
+         font-size:16px;
+         margin:10px 0 0;
+    }
+    .album-intro{
+         color:gray;
+         font-size:12px;
+         margin:10px 0 0;
+         display:block;
+         white-space:nowrap;
+         overflow:hidden;
+         text-overflow:ellipsis;
+    }
+}
+
+.photo{
+    .panel-body{
+        position: relative;
+    }
+    .photo-name{
+        color:black;
+        font-size:16px;
+        margin-top: 5px;
+    }
+    .photo-intro{
+        color:gray;
+        font-size:12px;
+    }
+    .photo-conf{
+        z-index: -1;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        top:auto;
+        color:gray;
+        font-size:22px;
+        padding: 2px;
+        background: #fff;
+        border-radius: 3px;
+        border: 1px solid #D6D6D6;
+        box-shadow: 0 0 2px rgba(0,0,0,.15);
+    }
+    &:hover{
+        .photo-conf{
+            z-index:0;
+        }
+    }
+}
