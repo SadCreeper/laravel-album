@@ -101,7 +101,7 @@
   </div>
 </div>
 
-<!-- 编辑相册：弹出框 -->
+<!-- 删除相册：弹出框 -->
 <div class="modal fade" id="deleteAlbum" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content" style="text-align:center">

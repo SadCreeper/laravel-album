@@ -19,3 +19,7 @@ Route::resource('albums','AlbumsController');
 
 //相片资源路由
 Route::resource('photos','PhotosController');
+
+
+//文章资源路由
+Route::resource('articles','ArticlesController');

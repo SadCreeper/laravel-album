@@ -25,21 +25,25 @@
 .photo{
     .panel-body{
         position: relative;
+        padding: 0px;
     }
     .photo-name{
         color:black;
         font-size:16px;
         margin-top: 5px;
+        padding-left:5px;
     }
     .photo-intro{
         color:gray;
         font-size:12px;
+        padding-left:5px;
+
     }
     .photo-conf{
         z-index: -1;
         position: absolute;
-        bottom: 10px;
-        right: 10px;
+        bottom: 5px;
+        right: 5px;
         top:auto;
         color:gray;
         font-size:22px;

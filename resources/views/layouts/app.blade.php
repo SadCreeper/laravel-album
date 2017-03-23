@@ -10,12 +10,12 @@
 
     <title>@yield('title', '无标题') - Laravel 简易相册</title>
 
-    <!-- Styles -->
+    <!-- 加载 CSS -->
     <link href="/css/app.css" rel="stylesheet">
 </head>
 <body>
 
-    <!-- 导航条 -->
+    <!-- bootstrap 导航条 -->
     <nav class="navbar navbar-default">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -26,24 +26,29 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <!-- LOGO 首页跳转按钮 -->
           <a class="navbar-brand" href="{{ route('home') }}">Laravel 简易相册</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
+            <!-- 导航按钮 此网站不需要 -->
             <!-- <li><a href="#">Link</a></li> -->
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        </div>
+      </div>
     </nav>
 
+    <!-- bootstrap 容器 -->
     <div class="container">
+        <!-- 显示提示消息 -->
         @include('shared.messages')
+        <!-- 网站主体内容 -->
         @yield('content')
     </div>
 
-    <!-- Scripts -->
+    <!-- 加载 CSS -->
     <script src="/js/app.js"></script>
     @yield('script')
 </body>
