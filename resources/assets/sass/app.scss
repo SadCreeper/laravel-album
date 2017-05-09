@@ -59,3 +59,45 @@
         }
     }
 }
+
+
+
+.z-panel{
+  margin-bottom: 20px;
+  border: 1px solid #e2e1e1;
+  font-size: 14px;
+  .z-panel-header{
+    padding: 8px 15px;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #F8F8F8;
+    text-align: center;
+    color: gray;
+  }
+  .z-panel-body{
+    background-color: white;
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: left;
+      li{
+        padding: 10px;
+        border-bottom: 1px solid #eeeeee;
+        display:block;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+    }
+  }
+  .z-panel-footer{
+      background-color: #F8F8F8;
+      text-align: right;
+      padding: 8px 15px;
+      color: gray;
+  }
+}
